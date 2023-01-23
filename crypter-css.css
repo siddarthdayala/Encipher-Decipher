@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 body{
     font-family: 'Roboto Condensed', sans-serif;
-    font-size:130%;
+    font-size:150%;
     background-color: #222629;
     color: white; 
     text-align: center;
@@ -11,6 +11,11 @@ body{
 .ciphers{
     display: flex;
     justify-content: space-around; 
+    margin-top: 120px;
+}
+
+h1{
+    margin-top: 50px;
 }
 
 .inputs{
@@ -26,7 +31,8 @@ body{
 }
 
 .form-div{
-    padding: 20px 5px 10px 5px;
+    padding: 20px 10px 20px 10px;
+    text-align: left;
 }
 
 .form-div input{
@@ -37,7 +43,7 @@ body{
 
 
 button{
-    font-size: 15px;
+    font-size: 19px;
     font-weight: bolder;
     background-color: #86c232;
     color: #ffffff;
